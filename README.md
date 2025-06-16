@@ -43,13 +43,12 @@ Mental health in the workplace is a critical concern, especially in the tech ind
 
 3. **Download the dataset**
    - Download from [Kaggle - OSMI Mental Health in Tech Survey](https://www.kaggle.com/osmi/mental-health-in-tech-survey)
-   - Place `survey.csv` in the `data/` folder
 
 ## Usage
 
 ### Running the Notebook
 
-- Open and run all cells in `notebooks/EDA_and_Modeling.ipynb` to see data cleaning, EDA, feature engineering, modeling, and evaluation.
+- Open and run all cells in `mental_health_prediction.ipynb` to see data cleaning, EDA, feature engineering, modeling, and evaluation.
 
 ### Training the Model
 
@@ -59,7 +58,7 @@ Mental health in the workplace is a critical concern, especially in the tech ind
 
 - After training, run:
    ```bash
-   streamlit run app/streamlit_app.py
+   streamlit.py
    ```
 - This will start a web server for interactive predictions.
 
